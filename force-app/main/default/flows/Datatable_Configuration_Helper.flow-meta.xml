@@ -5,7 +5,7 @@
         <label>Get Field Information fbc</label>
         <locationX>551</locationX>
         <locationY>423</locationY>
-        <actionName>fbc_GetFieldInformation</actionName>
+        <actionName>fsc_GetFieldInformation</actionName>
         <actionType>apex</actionType>
         <connector>
             <targetReference>Select_Fields</targetReference>
@@ -159,7 +159,7 @@
         </fields>
         <fields>
             <name>DeployMetadata</name>
-            <extensionName>c:fbc_transferMetadata</extensionName>
+            <extensionName>c:fsc_transferMetadata</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>metadataName</name>
@@ -204,7 +204,7 @@
         </connector>
         <fields>
             <name>PickObject</name>
-            <extensionName>c:fbc_pickObjectAndField</extensionName>
+            <extensionName>c:fsc_pickObjectAndField</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>hideFieldPicklist</name>
@@ -280,7 +280,7 @@
         </fields>
         <fields>
             <name>SelectFields</name>
-            <extensionName>c:fbc_dualListBox2</extensionName>
+            <extensionName>c:fsc_dualListBox2</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>allOptionsStringFormat</name>
@@ -487,7 +487,7 @@
     </textTemplates>
     <variables>
         <name>apexColFieldDescriptors_fbc</name>
-        <apexClass>fbc_FieldDescriptor</apexClass>
+        <apexClass>fsc_FieldDescriptor</apexClass>
         <dataType>Apex</dataType>
         <isCollection>true</isCollection>
         <isInput>false</isInput>
