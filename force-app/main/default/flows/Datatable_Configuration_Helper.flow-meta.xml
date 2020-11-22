@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <name>Get_Field_Information_fbc</name>
-        <label>Get Field Information fbc</label>
+        <name>Get_Field_Information_fsc</name>
+        <label>Get Field Information fsc</label>
         <locationX>551</locationX>
         <locationY>423</locationY>
         <actionName>fsc_GetFieldInformation</actionName>
@@ -17,7 +17,7 @@
             </value>
         </inputParameters>
         <outputParameters>
-            <assignToReference>apexColFieldDescriptors_fbc</assignToReference>
+            <assignToReference>apexColFieldDescriptors_fsc</assignToReference>
             <name>fields</name>
         </outputParameters>
     </actionCalls>
@@ -43,7 +43,7 @@
         <locationX>875</locationX>
         <locationY>473</locationY>
         <defaultConnector>
-            <targetReference>Get_Field_Information_fbc</targetReference>
+            <targetReference>Get_Field_Information_fsc</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>NONE</defaultConnectorLabel>
         <rules>
@@ -109,7 +109,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Get_Field_Information_fbc</targetReference>
+                <targetReference>Get_Field_Information_fsc</targetReference>
             </connector>
             <label>NO</label>
         </rules>
@@ -345,7 +345,7 @@
             <inputParameters>
                 <name>allOptionsFieldDescriptorList</name>
                 <value>
-                    <elementReference>apexColFieldDescriptors_fbc</elementReference>
+                    <elementReference>apexColFieldDescriptors_fsc</elementReference>
                 </value>
             </inputParameters>
             <isRequired>true</isRequired>
@@ -486,7 +486,7 @@
 &lt;/Flow&gt;</text>
     </textTemplates>
     <variables>
-        <name>apexColFieldDescriptors_fbc</name>
+        <name>apexColFieldDescriptors_fsc</name>
         <apexClass>fsc_FieldDescriptor</apexClass>
         <dataType>Apex</dataType>
         <isCollection>true</isCollection>

@@ -60,7 +60,7 @@ This configures your org to essentially allow applications to run that call out 
                             New Required? Parameter - Requires the user to select at least 1 row to proceed  
                             New option to suppress the link for the object's standard Name field  
                             New optional Table Header with Table Icon and Table Label Parameters  
-                            Switched DualListbox to the fbc version  
+                            Switched DualListbox to the fsc version  
                             Added spinners while sorting & filtering data  
                             Allow case insensitive field API names  
                             Allow custom field API names w/o the __c suffix  
